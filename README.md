@@ -9,7 +9,7 @@ Abre `index.html` en un navegador para acceder a los ejercicios. Descarga el rep
 - `ejercicio3.html`: formulario de alquiler de coches.
 - `ejercicio4.html`: blog con etiquetas semánticas y el texto del adjunto.
 - `ejercicio5.html`: imagen enlazada, vídeo y audio.
-- `ejercicio6-github.html`: explicación de GitHub y enlace a este repositorio.
+- `Eneko-Jimenez-práctica1-UT2.docx`: respuesta escrita del ejercicio 6 con la explicación de GitHub y el enlace al repositorio.
 - `ejercicio6.html`: ficha de producto del ejercicio 7, con el nombre solicitado en el enunciado.
 - `recursos/`: imágenes, vídeo y audio utilizados por las páginas.
 
