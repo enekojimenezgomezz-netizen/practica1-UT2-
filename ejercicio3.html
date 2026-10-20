@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Alquiler de coches</title>
+</head>
+<body>
+
+	<main>
+		<h1>Petición de alquiler de coche</h1>
+		<p>Formulario de práctica: no envía una reserva real.</p>
+		<form action="ejercicio3.html" method="get">
+			<fieldset>
+				<legend>Datos de contacto</legend>
+				<p><label for="nombre">Nombre:</label> <input type="text" id="nombre" name="nombre" autocomplete="given-name" required></p>
+				<p><label for="apellidos">Apellidos:</label> <input type="text" id="apellidos" name="apellidos" autocomplete="family-name" required></p>
+				<p><label for="telefono">Teléfono:</label> <input type="tel" id="telefono" name="telefono" autocomplete="tel" required></p>
+				<p><label for="email">Correo electrónico:</label> <input type="email" id="email" name="email" autocomplete="email" required></p>
+			</fieldset>
+			<fieldset>
+				<legend>Fechas y recogida</legend>
+				<p><label for="recogida">Fecha de recogida:</label> <input type="date" id="recogida" name="recogida" required></p>
+				<p><label for="devolucion">Fecha de devolución:</label> <input type="date" id="devolucion" name="devolucion" required></p>
+				<p><label for="lugar">Lugar de recogida:</label> <select id="lugar" name="lugar"><option value="aeropuerto">Aeropuerto</option><option value="oficina">Oficina</option></select></p>
+			</fieldset>
+			<fieldset>
+				<legend>Tipo de vehículo</legend>
+				<p><label><input type="radio" name="vehiculo" value="urbano" required> Coche urbano</label></p>
+				<p><label><input type="radio" name="vehiculo" value="familiar"> Familiar</label></p>
+				<p><label><input type="radio" name="vehiculo" value="todoterreno"> Todoterreno</label></p>
+			</fieldset>
+			<fieldset>
+				<legend>Extras</legend>
+				<p><label><input type="checkbox" name="extras" value="gps"> GPS</label></p>
+				<p><label><input type="checkbox" name="extras" value="silla"> Silla infantil</label></p>
+				<p><label><input type="checkbox" name="extras" value="seguro"> Seguro a todo riesgo</label></p>
+			</fieldset>
+			<p><label for="comentarios">Comentarios:</label></p>
+			<p><textarea id="comentarios" name="comentarios" rows="5" cols="45"></textarea></p>
+			<p><button type="submit">Buscar</button></p>
+		</form>
+	</main>
+</body>
+</html>
